@@ -1,7 +1,7 @@
 import { StatusBar } from 'expo-status-bar';
 import React , {Component} from 'react';
-//import Entry from './src/components/Entry'
-import HomeScreen from './src/screens/HomeScreen';
+import Entry from './src/components/Entry'
+
 import { StyleSheet, Text, View } from 'react-native';
 import Icon from 'react-native-vector-icons';
 
@@ -17,6 +17,7 @@ render(){
     <View style={styles.container}>
       <Text>Open up App.js to start working on your app!</Text>
     <Text> Hello World! </Text>
+    <Entry />
       <StatusBar style="auto" />
 
     </View>
@@ -40,7 +41,7 @@ tabBarIcon: ( {focused, tintColor} ) => (
 
 
 Post: {
-screen: HomeScreen,
+screen: App,
 navigationOptions: {
 
 tabBarIcon: ( { focused , tintColor} ) => (
