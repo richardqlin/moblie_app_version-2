@@ -3,11 +3,12 @@ import { StyleSheet, Dimensions, Text, View } from 'react-native';
 const styles = StyleSheet.create({
 border: {
  width: Dimensions.get('window').width * 0.7,
- margin:10,
- padding: 10,
+ margin:20,
+ padding: 20,
  borderWidth :1,
- borderColor: '#f00',
-  backgroundColor: '#f00',
+ borderColor: '#0f0',
+ // backgroundColor: '#f00',
+
 },
 
   container: {

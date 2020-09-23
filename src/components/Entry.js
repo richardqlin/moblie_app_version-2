@@ -5,7 +5,7 @@ class Entry extends Component {
 render() {
 return (
     <View  style={styles.border}>
-    <Text> Hello World !</Text>
+    <Text> {this.props.item.title }</Text>
 
     </View>
 );
